@@ -7,7 +7,7 @@ def hello(bot, update):
 
 def introduce(bot, update):
     update.message.reply_text(
-        'Hello {}, Introduce yourself with your Branch, Year, what you know and what you expect :-) '.format(update.message.from_user.first_name))
+        'Hello {}, Introduce yourself with your Branch, Year, what you know(Important) and what you expect :-).. add few bits about yourself too '.format(update.message.from_user.first_name))
 
 def whoarewe(bot,update):
 	update.message.reply_text(
